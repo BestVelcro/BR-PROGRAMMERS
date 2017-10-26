@@ -5,5 +5,5 @@
 ### Tipo de pull request
   
   - Coloque um `x` dentro dos colchetes para marcar o tipo do seu pull request.
-  - [] Melhoria do repositório
-  - [] Novo projeto
+  - [ ] Melhoria do repositório
+  - [ ] Novo projeto
