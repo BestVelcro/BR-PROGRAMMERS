@@ -1,17 +1,24 @@
+// Modulos
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
-const prefix = 'PREFIXO';
 
+// Edite
+const prefix = 'PREFIXO'; // Adicione aqui o seu prefixo
+
+
+// Incializador dos Eventos
 fs.readdir("./eventos/", (err, files) => {
   if (err) return console.error(err);
-  files.forEach(arquivo => {
-    let FuncaodoEvento = require(`./eventos/${arquivo}`);
-    let  = arquivo.split(".")[0];
-    client.on(arquivo, (...args) => FuncaodoEvento.run(client, ...args));
+  files.forEach(file => {
+    let evento = require(`./eventos/${file}`);
+    let NomeEvento = file.split(".")[0];
+    client.on(NomeEvento, (...args) => evento.run(client, ...args));
   });
 });
 
+
+// Incializador dos Comandos
 client.on("message", message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -29,4 +36,5 @@ client.on("message", message => {
 
 });
 
-client.login("TOKEN");
+// Edite
+client.login("TOKEN"); // Adcione seu token aqui
