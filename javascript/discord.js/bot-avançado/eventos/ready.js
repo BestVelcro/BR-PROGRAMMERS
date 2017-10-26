@@ -1,3 +1,3 @@
 exports.run = (client) => {
-	console.log('Pronto!')
+  console.log('Pronto! Autenticado como ' + client.user.username);
 }
