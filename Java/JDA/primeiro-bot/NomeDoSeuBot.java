@@ -10,6 +10,7 @@ public class NomeDoSeuBot  {
                                 //E Importante Colocar Como AccountType.BOT para que a api possa saber que não e um selfbot
         JDA jda = new JDABuilder(AccountType.BOT)
             .setToken("token")
+            .addEventListener(DiscordListener())
             .buildBlocking();
     }
     
