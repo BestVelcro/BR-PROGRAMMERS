@@ -83,7 +83,7 @@ O Eval serve para você testar e executar comandos no discord usando o bot. (ex:
 
 não tem como enviar em texto pq é largo então vou deixar em link de download. Você vai precisar alterar um pouco
 
-[Baixe aqui.](https://cdn.discordapp.com/attachments/298518634765221890/373497605122162689/ping.js)
+![](https://i.imgur.com/AldZyaJ.png)
 
 
 7°Fazendo o bot usar emojis.
