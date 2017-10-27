@@ -1,4 +1,5 @@
 1°Exemplo de comandos simples em d.js
+Pode ser que quando você esteja vendo isso message.channel.send**Message** não funcione mais, então troque por message.channel.send e tudo vai estar resolvido
 
 **message.author.avatarURL**
 Pega o link do avatar da pessoa que mandou a mensagem
