@@ -9,8 +9,8 @@ exports.run = (client, message, args) => {
         
         } else if (usuario.id !== message.author.id) { // Se houver menção manda o avatar do usuário mencionado.
             const embed = new Discord.RichEmbed()
-            .setTitle(`Avatar de ${user.username}:`)
-            .setImage(user.avatarURL); // Avatar do usuário mencionado
+            .setTitle(`Avatar de ${usuario.username}:`)
+            .setImage(usuario.avatarURL); // Avatar do usuário mencionado
             message.channel.send({embed: embed}) // Envia a embed.
         }
 }
