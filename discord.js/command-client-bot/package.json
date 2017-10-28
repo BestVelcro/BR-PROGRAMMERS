@@ -1,0 +1,25 @@
+{
+  "name": "command-client-bot",
+  "version": "1.0.0",
+  "description": "Bot básico utilizando CommandClient",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BestVelcro/BR-PROGRAMMERS.git"
+  },
+  "keywords": [
+    "bot",
+    "command",
+    "client",
+    "command-client"
+  ],
+  "author": "davipatury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BestVelcro/BR-PROGRAMMERS/issues"
+  },
+  "homepage": "https://github.com/BestVelcro/BR-PROGRAMMERS#readme"
+}
