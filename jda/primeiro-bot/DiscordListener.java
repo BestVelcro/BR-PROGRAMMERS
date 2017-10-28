@@ -29,7 +29,7 @@
             //Vamos criar uma bufferedimage com o tamanho 400 x 300
             BufferedImage base = BufferedImage(400, 300, BufferedImage.TYPE_INT_ARGB);
 
-            //Para facilitar o code
+            //Para facilitar o code 
             Graphics graphics = base.graphics;
             //Vamos colocar a cor do texto de branco
              graphics.setColor = Color(255,255,255);
