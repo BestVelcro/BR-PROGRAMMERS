@@ -23,8 +23,8 @@ client.on('ready', () => { // Quando o bot estiver pronto
  * Se a mensagem começar com "++ping" o bot vai responder com um "pong!".
  */
 client.on('message', (msg) => {
-  if (message.content.startsWith('++ping')) {
-    message.reply('Pong!');
+  if (msg.content.startsWith('++ping')) {
+    msg.reply('Pong!');
   }
 });
 
