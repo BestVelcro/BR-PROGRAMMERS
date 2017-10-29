@@ -32,6 +32,7 @@
 
             //Para facilitar o code
             Graphics graphics = base.getGraphics();
+
             //Vamos colocar a cor do texto de branco
              graphics.setColor(Color.WHITE);
              //Agora vamos escrever alguma coisa na nossa bufferedimage
