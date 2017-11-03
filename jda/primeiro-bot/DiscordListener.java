@@ -17,7 +17,7 @@
        String message = event.getMessage().getContent();
         
         //Se a mensagem começar com _ping...
-      if(message.startsWith("_simpleimage") {
+      if(message.startsWith("_simpleimage")) {
           //Ele vai me responder com Pong!
               //É Importante deixar .queue();
           event.getTextChannel().sendMessage("Pong!").queue();
@@ -26,7 +26,7 @@
           
         //Vamos adicionar uma imagem
          //Para isso, vamos usar um bufferedimage
-         message.startsWith("_simpleimage") {
+       if(message.startsWith("_simpleimage")) {
             //Vamos criar uma bufferedimage com o tamanho 400 x 300
              BufferedImage base = new BufferedImage(400, 300, BufferedImage.TYPE_INT_ARGB);
 
