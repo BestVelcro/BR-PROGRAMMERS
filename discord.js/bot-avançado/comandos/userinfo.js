@@ -1,6 +1,6 @@
 exports.run = (client, message, args) => {
     const Discord = require("discord.js");
-    let user = message.mentions.users.first() || message.author; // Pega a menção ou, se não houver menção, de quem executou o comando.
+    let usuario = message.mentions.users.first() || message.author; // Pega a menção ou, se não houver menção, de quem executou o comando.
     if (usuario.id == message.author.id) { // Se não houver menção manda a informação do usuário que executou o comando.
         const embed = new Discord.RichEmbed()
             .setAuthor(`Seu Perfil`, message.author.avatarURL) // Coloca como título "Seu Perfil" e a imagem do autor em miniatura
